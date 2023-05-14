@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://se-buscan.c67x6svolbh4.us-east-1.rds.amazonaws.com:3306/se-buscan?useSSL=false
+    username: admin
+    password: sebuscan2023
+server:
+  port: 443
+  ssl:
+    key-store: sebuscan.p12
+    key-store-password: sebuscan
+    keyStoreType: PKCS12
+    keyAlias: spring
